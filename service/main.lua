@@ -8,6 +8,7 @@ skynet.start(function()
 		local console = skynet.newservice("console")
 	end
 	skynet.newservice("debug_console",8000)
+	-- skynet.newservice("debug_console",8000)
 	skynet.error("Watchdog listen on", 8888)
 	skynet.exit()
 end)

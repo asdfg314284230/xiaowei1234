@@ -1,8 +1,8 @@
 package.cpath = "./skynet/luaclib/?.so"
 package.path = "./skynet/lualib/?.lua"
+local skynet = require "skynet"
 
-
-local skynet    = require "skynet.socket"
+-- local skynet    = require "skynet.socket"
 -- local socket    = require "socket"
 
 
